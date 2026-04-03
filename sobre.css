@@ -52,3 +52,14 @@ main img{
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+.galeria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size:cover;
+}
+.galeria img{
+    width: 25%;
+    height: 300px;
+}
