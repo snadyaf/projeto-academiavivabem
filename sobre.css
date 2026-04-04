@@ -36,7 +36,8 @@ li{
 }
 main img{
     width: 100%;
-}.conteudo{
+}
+.conteudo{
     display: flex;
     flex-direction: column;
     margin:0 auto;
@@ -62,4 +63,64 @@ main img{
 .galeria img{
     width: 25%;
     height: 300px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+.unidades{
+    width: 100%;
+    padding: 40px 20px;
+    background-image: url(https://pratiquefitness.com.br/blog/wp-content/uploads/2023/08/Descubra-as-melhores-modalidades-de-academia-para-o-seu-perfil-1.jpg);
+    
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9), url(https://pratiquefitness.com.br/blog/wp-content/uploads/2023/08/Descubra-as-melhores-modalidades-de-academia-para-o-seu-perfil-1.jpg));
+    background-size: cover;
+    background-position: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do card */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.cards img{
+    height: 100%;
+    height: 200px;
+    object-fit: cover; /* Garante que a imagem preencha o card sem distor */
+}
+.card-info{
+    background-color: #555555;
+    padding: 15px;
+}
+.card-info p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #fff;
+
+}
+.card-info button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #22C55E;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-info button:hover {
+    background-color: #16A34A;
 }
