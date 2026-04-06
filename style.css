@@ -121,7 +121,67 @@ h2{
     font-size: 14px;
     color: #fff;
 
+/* CONTATO */
+.contato {
+  padding: 60px 20px;
+  text-align: center;
+  background:white;
+  background-color: #555555;
 }
+
+.contato h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.contato p {
+  color: #000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* FORMS */
+.form-contato {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.form-contato input,
+.form-contato textarea {
+  padding: 12px;
+  height: auto;
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  color:black;
+  outline: none;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+  border-color: #0f350b;
+}
+
+/* BOTÃO */
+.form-contato button {
+  padding: 12px;
+  border: none;
+  background: #0f350b;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.form-contato button:hover {
+  background: #0f350b;
+}
+    
 .card-info button {
     width: 100%;
     padding: 10px;
