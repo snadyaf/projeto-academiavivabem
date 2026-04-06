@@ -58,12 +58,6 @@ A combinação foi escolhida para garantir legibilidade, modernidade e hierarqui
 
 ---
 
-## 📱 Responsividade
-
-O layout foi desenvolvido de forma responsiva, garantindo uma boa experiência em dispositivos móveis, tablets e desktops.
-
----
-
 ## 📌 Objetivo do Projeto
 
 Este projeto tem como objetivo:
