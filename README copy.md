@@ -14,7 +14,9 @@ O site é estruturado com as seguintes seções principais:
 * **Home** — Apresentação inicial e destaque da proposta da academia
 * **A Viva Bem** — Informações institucionais e diferenciais
 * **Unidades** — Localização e detalhes das unidades disponíveis
+* **Planos** — Exibição dos planos e benefícios oferecidos
 * **Área do Aluno** — Espaço dedicado para acesso do usuário
+* **Contato** — Canal direto para comunicação com a academia
 
 ---
 
@@ -53,6 +55,12 @@ A combinação foi escolhida para garantir legibilidade, modernidade e hierarqui
 
 * HTML5
 * CSS3
+
+---
+
+## 📱 Responsividade
+
+O layout foi desenvolvido de forma responsiva, garantindo uma boa experiência em dispositivos móveis, tablets e desktops.
 
 ---
 
