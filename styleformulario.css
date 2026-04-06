@@ -54,6 +54,22 @@ input[type="text"]:focus {
   box-shadow: 0 0 0 3px rgba(74, 144, 217, 0.2);
 }
 
+input[type="password"] {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="password"]:focus {
+  border-color: #1fca52;
+  box-shadow: 0 0 0 3px rgba(74, 144, 217, 0.2);
+}
+
+
 .classe-botao {
   margin-top: 24px;
   width: 100%;

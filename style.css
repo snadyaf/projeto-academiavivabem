@@ -188,21 +188,3 @@ h2{
   width: 30px;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
-    .menu ul{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .conteudo {
-        width: 90%;
-    }
-    .galeria img {
-        width: 80%;
-    }
-}
