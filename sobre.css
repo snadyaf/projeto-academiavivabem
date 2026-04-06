@@ -10,6 +10,11 @@ body{
 a{
     text-decoration: none;
     color: #ffffff;
+
+}
+a:hover{
+    color: #22C55E;
+    text-decoration: underline;
 }
 nav{
     display: flex; 
@@ -81,9 +86,9 @@ h2{
     background-image: url(https://totalpass.com/wp-content/uploads/2025/10/academia-inteligente-3.jpg);
     
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://totalpass.com/wp-content/uploads/2025/10/academia-inteligente-3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment:fixed;
+    background-size: cover; /* Garante que a imagem de fundo cubra toda a área da seção */
+    background-position: center; 
+    background-attachment:fixed; /* Mantém a imagem fixa enquanto o usuário rola a página */
 }
 .cards{
     display: flex;
