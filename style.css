@@ -34,6 +34,13 @@ li{
     list-style: none;
     gap: 20px;
 }
+
+.fa-solid.fa-circle-user{
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+}
+
 .logo img{
     
     height: 100px;
@@ -53,7 +60,7 @@ main img{
     margin-bottom: 20px;
 }
 .conteudo p{
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
     margin-bottom: 20px;
     color: #1F2937;
@@ -79,7 +86,6 @@ h2{
     width: 100%;
     padding: 80px 20px;
     background-image: url(https://totalpass.com/wp-content/uploads/2025/10/academia-inteligente-3.jpg);
-    
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://totalpass.com/wp-content/uploads/2025/10/academia-inteligente-3.jpg);
     background-size: cover;
     background-position: center;
@@ -180,4 +186,23 @@ h2{
 }
 .img-icon{
   width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .menu ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo {
+        width: 90%;
+    }
+    .galeria img {
+        width: 80%;
+    }
 }
