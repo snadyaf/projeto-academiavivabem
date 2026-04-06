@@ -35,12 +35,6 @@ li{
     gap: 20px;
 }
 
-.fa-solid.fa-circle-user{
-    font-size: 20px;
-    color: rgb(5, 5, 5);
-    cursor: pointer;
-}
-
 .logo img{
     
     height: 100px;
@@ -126,7 +120,7 @@ h2{
     margin-bottom: 15px;
     font-size: 14px;
     color: #fff;
-
+}
 /* CONTATO */
 .contato {
   padding: 60px 20px;
@@ -247,4 +241,3 @@ h2{
 .img-icon{
   width: 30px;
 }
-
